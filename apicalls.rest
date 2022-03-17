@@ -1,0 +1,13 @@
+POST https://nextjs-pokemon-models-re2l13at1-e-pin.vercel.app/api/hello
+content-type: application/json
+
+["/pokemon/1"]
+
+###
+POST http://localhost:3000/api/revalidate
+content-type: application/json
+
+["/pokemon/1", "/pokemon/2"]
+
+###
+POST https://nextjs-pokemon-models-re2l13at1-e-pin.vercel.app/api/urlsplitter
